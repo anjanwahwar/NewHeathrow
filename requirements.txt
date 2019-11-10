@@ -1,0 +1,13 @@
+pillow
+Flask
+jsonschema
+requests
+azure-cognitiveservices-vision-customvision
+Flask-API
+Flask-RESTful
+api
+azure-storage-blob
+pypyodbc
+python-dateutil
+PyMuPDF
+img2pdf
