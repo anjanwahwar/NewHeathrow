@@ -36,7 +36,7 @@ RUN mkdir /opt/defaultsite
 COPY hostingstart.html /opt/defaultsite
 COPY application.py /opt/defaultsite
 COPY requirements.txt /opt/defaultsite/
-#COPY aadhaar.jpg /opt/defaultsite/
+COPY SalaryPrediction.pkl /opt/defaultsite/
 RUN pip install -r /opt/defaultsite/requirements.txt
 
 # configure startup
